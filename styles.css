@@ -9,7 +9,25 @@ body {
 
 #header {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  text-align: center;
+}
+
+#logo-text {
+  font-size: 50px;
+  margin: 10px 0;
+}
+
+#logo-text a {
+  color: #26a888;
+  text-decoration: none;
+}
+
+#header p {
+  font-size: 14px;
+  color: #999;
+  margin: 0 0 20px 0;
 }
 
 #menu-bar {
@@ -38,15 +56,6 @@ body {
 .content-wrapper a:hover {
   color: #fff;
   text-decoration: underline;
-}
-
-#logo-text {
-  font-size: 50px;
-}
-
-#logo-text a {
-  color: #26a888;
-  text-decoration: none;
 }
 
 ul {
