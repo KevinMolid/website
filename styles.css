@@ -41,6 +41,7 @@ body {
 .content-wrapper {
   background-color: #333;
   width: 800px;
+  min-height: 500px;
   margin: 40px;
   padding: 40px;
   text-align: left;
