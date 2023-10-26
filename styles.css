@@ -4,9 +4,27 @@ body, html {
   margin: 0;
 }
 
+/* colors */
+
 body {
-  color: #222;
-  background-color: #dee4e2;
+  background-color: #fdfcf9;
+}
+
+body,
+li a {
+  color: #444;
+}
+
+a {
+  color:  #457b9d;
+}
+
+a:hover {
+  color: #1d3557;
+}
+
+li a:hover {
+  color: #444;
 }
 
 /* Layout */
@@ -36,7 +54,6 @@ header {
 }
 
 .card {
-  color: #333;
   margin: 20px auto;
   padding: 50px;
   background-color: white;
@@ -76,7 +93,6 @@ li {
 
 li a {
   display: block;
-  color: #222;
   text-align: center;
   padding: 12px 16px 7px 16px;
   text-decoration: none;
@@ -90,28 +106,13 @@ li a img {
 
 li a:hover,
 li a:focus {
-  color:  #222;
   padding-bottom: 2px;
-  border-bottom: 5px solid #b7c0c0;
+  border-bottom: 5px solid #1d3557;
 }
 
 .active {
   padding-bottom: 2px;
-  border-bottom: 5px solid #2ebadd;
-}
-
-.active:hover,
-.active:focus {
-  border-bottom: 5px solid #2ebadd;
-}
-
-/* colors */
-a {
-  color:  #2ebadd;
-}
-
-a:hover {
-  color: #b7c0c0;
+  border-bottom: 5px solid #457b9d;
 }
 
 
@@ -127,17 +128,36 @@ header p {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 67px;
   font-weight: 800;
+  line-height: 89px;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 400;
+  line-height: 67px;
+}
+
+h3 {
+  font-size: 37px;
+  line-height: 50px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 28px;
+  line-height: 37px;
+}
+
+h5 {
+  font-size: 21px;
+  line-height: 28px;
 }
 
 p {
   font-size: 16px;
+  line-height: 21px;
 }
 
 /* Links */
