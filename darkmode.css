@@ -74,17 +74,81 @@ body, html {
     width: 200px;
     border-radius: 10px;
   }
-
-  .project-img {
-    width: 150px;
-    border-radius: 10px;
-  }
   
   .card {
     margin: 24px auto;
     padding: 32px;
     border-radius: 10px;
   }
+
+  /* Projects section */
+
+  .projects-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projects-el{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .project-name{
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #222;
+    margin: 0 0 8px 0;
+  }
+
+  .project-description{
+    text-align: center;
+    margin: 0 0 20px 0;
+  }
+
+  .project-card{
+    width: 25%;
+    color: #222;
+    padding: 20px;
+    background-color: #eaeaea;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .project-content{
+    display: flex;
+    gap: 20px;
+  }
+
+  .project-img {
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid #999;
+  }
+
+  .project-btn{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    background-color: #222;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+
+  .project-btn:hover{
+    text-decoration: none;
+    background-color: #333;
+  }
+
+  /* Footer */
   
   footer {
     padding: 50px;
